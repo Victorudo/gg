@@ -1,0 +1,17 @@
+.left {
+    text-align: left;
+    background-color: navy;
+    width: 20%;
+
+}
+.container {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    text-align: right;
+    width:80%;
+    flex-direction: row;
+    justify-content: left;
+}
